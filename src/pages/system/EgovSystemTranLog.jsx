@@ -92,12 +92,7 @@ function EgovSystemTranLog() {
             requestOptions,
             (resp) => {
 
-                let mutListTag = [];
-                //listTag.push(<p className="no_data" key="0">검색된 결과가 없습니다.</p>); // 게시판 목록 초기값
-
-                //const resultCnt = parseInt(resp.result.resultCnt);
-                //const dataList = document.querySelector('#dataList');
-                
+                let mutListTag = [];               
                 
 
                 // 리스트 항목 구성
