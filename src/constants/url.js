@@ -44,6 +44,14 @@ const URL = {
     INFORM_GALLERY_MODIFY       : "/inform/gallery/modify", // 알림마당/사이트갤러리수정
     INFORM_GALLERY_REPLY        : "/inform/gallery/reply", // 알림마당/사이트갤러리답글
     
+    //SYSTEM
+    SYSTEM                      : "/system", //시스템관리
+    SYSTEM_COMM                 : "/system/comm", // 시스템관리/공통관리
+    SYSTEM_CODE                 : "/system/code", // 시스템관리/공통관리/공통코드관리
+    SYSTEM_AUTH                 : "/system/log", // 시스템관리/로그관리
+    SYSTEM_TRANLOG              : "/system/tranlog", // 시스템관리/로그관리/트랜잭션 로그
+    SYSTEM_USERLOG              : "/system/userlog", // 시스템관리/로그관리/사용자별 접속로그
+    
     //ADMIN
     ADMIN                       : "/admin", // 사이트관리
     ADMIN_SCHEDULE              : "/admin/schedule", // 사이트관리/일정관리

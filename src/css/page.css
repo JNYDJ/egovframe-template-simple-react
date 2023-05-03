@@ -305,3 +305,22 @@
     .calendar_info ul li::before {content: ""; display: block; position: absolute; left: 20px; top: 27px; width: 2px; height: 2px; background: #222;}
     .calendar_info ul li a {color: #222; font-size: 16px; font-weight: 300;}
     .calendar_info ul li span {position: absolute; right: 15px; top: 15px; color: #808080; font-size: 16px; font-weight: 300;}
+
+
+    /* 트랜잭션 관리 */
+    .LOG003 .head > span:nth-child(1) {width: 60px;}
+    .LOG003 .head > span:nth-child(2) {width: 80px;}
+    .LOG003 .head > span:nth-child(3) {width: 60px;}
+    .LOG003 .head > span:nth-child(4) {width: 200px;}
+    .LOG003 .head > span:nth-child(5) {width: 60px;}
+    .LOG003 .head > span:nth-child(6) {width: 80px;}
+    .LOG003 .head > span:nth-child(7) {width: 60px;}
+    .LOG003 .head > span:nth-child(8) {width: 100px;}
+    .LOG003 .result .list_item > div:nth-child(1) {width: 60px;}
+    .LOG003 .result .list_item > div:nth-child(2) {width: 80px;}
+    .LOG003 .result .list_item > div:nth-child(3) {width: 60px;}
+    .LOG003 .result .list_item > div:nth-child(4) {width: 200px;}
+    .LOG003 .result .list_item > div:nth-child(5) {width: 60px;}
+    .LOG003 .result .list_item > div:nth-child(6) {width: 80px;}
+    .LOG003 .result .list_item > div:nth-child(7) {width: 60px;}
+    .LOG003 .result .list_item > div:nth-child(8) {width: 100px;}

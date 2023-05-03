@@ -44,6 +44,9 @@ import EgovGalleryList from 'pages/inform/gallery/EgovGalleryList';
 import EgovGalleryDetail from 'pages/inform/gallery/EgovGalleryDetail';
 import EgovGalleryEdit from 'pages/inform/gallery/EgovGalleryEdit';
 
+//SYSTEM
+import EgovSystemTranLog from 'pages/system/EgovSystemTranLog';
+
 //ADMIN
 import EgovAdminScheduleList from 'pages/admin/schedule/EgovAdminScheduleList';
 import EgovAdminScheduleDetail from 'pages/admin/schedule/EgovAdminScheduleDetail';
@@ -195,6 +198,10 @@ const SecondRoutes = () => {
         <Route path={URL.INFORM_GALLERY_CREATE} element={<EgovGalleryEdit mode={CODE.MODE_CREATE} />} />
         <Route path={URL.INFORM_GALLERY_MODIFY} element={<EgovGalleryEdit mode={CODE.MODE_MODIFY} />} />
         <Route path={URL.INFORM_GALLERY_REPLY} element={<EgovGalleryEdit mode={CODE.MODE_REPLY} />} />
+
+        {/* SYSTEM */}
+        <Route path={URL.SYSTEM} element={<Navigate to={URL.SYSTEM_TRANLOG} />} />
+        <Route path={URL.SYSTEM_TRANLOG} element={<EgovSystemTranLog />} />
 
         {/* ADMIN */}
         <Route path={URL.ADMIN} element={<Navigate to={URL.ADMIN_SCHEDULE} />} />

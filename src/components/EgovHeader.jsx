@@ -69,6 +69,7 @@ function EgovHeader({ loginUser, onChangeLogin }) {
                         <li><NavLink to={URL.INTRO} className={({ isActive }) => (isActive ? "cur" : "")}>정보마당</NavLink></li>
                         <li><NavLink to={URL.SUPPORT} className={({ isActive }) => (isActive ? "cur" : "")}>고객지원</NavLink></li>
                         <li><NavLink to={URL.INFORM} className={({ isActive }) => (isActive ? "cur" : "")}>알림마당</NavLink></li>
+                        <li><NavLink to={URL.SYSTEM} className={({ isActive }) => (isActive ? "cur" : "")}>시스템관리</NavLink></li>
                         {sessionUserSe ==='USR' &&
                             <li><NavLink to={URL.ADMIN} className={({ isActive }) => (isActive ? "cur" : "")}>사이트관리</NavLink></li>
                         }
